@@ -34,7 +34,7 @@ for instance.
 - We have no access to the original pull request that triggered the deployment event.
 
 ```yaml
-# .github/checkly.yml
+# .github/workflows/checkly.yml
 name: 'checkly'
 on: [deployment_status]
 
